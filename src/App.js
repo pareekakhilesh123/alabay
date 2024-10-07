@@ -1,12 +1,15 @@
 
 import './App.css';
+import Home from './Home/Home';
+ 
 
 function App() {
   return (
     <div className="App">
-     <div className="cheeseburger-font">
-      <h2>Jai Shree Ram</h2>
-      </div>
+     {/* <div className="cheeseburger-font">
+      
+      </div> */}
+      <Home />
     </div>
   );
 }

@@ -1,0 +1,19 @@
+.textcontainer {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  @media (max-width: 768px) {
+   .textcontainer {
+        width: 100%;
+        height: auto;
+        
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0%;
+      }
+  }

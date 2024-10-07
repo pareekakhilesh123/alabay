@@ -1,0 +1,33 @@
+.textcontainer h2 {
+    font-size: 2rem;
+    color: #ff8c00;
+    font-family: "Montserrat", sans-serif;
+    
+    font-weight: 900;
+    
+  }
+  
+  .textcontainer h1 {
+    font-size: 4rem;
+    color: #fffefd;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .textcontainer p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #4a4a4a;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+  }
+
+  @media (max-width: 768px) {
+  .textcontainer h1 {
+      font-size: 3rem;;
+    }
+  
+    .textcontainer p {
+      font-size: 1rem;
+    }
+  }

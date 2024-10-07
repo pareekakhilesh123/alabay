@@ -1,0 +1,59 @@
+.mainsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+    
+  }
+  
+
+  
+  
+
+ 
+  
+
+
+  
+  .navigation {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .nav-item {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .nav-item:hover {
+    color: #ff8c00;
+  }
+  
+  
+ 
+/*   
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      width: 100vw;
+    }
+  
+    .imgcontainer, .textcontainer {
+      width: 100%;
+      height: auto;
+    }
+  
+    .textcontainer h1 {
+      font-size: 3rem;
+    }
+  
+    .textcontainer p {
+      font-size: 1rem;
+    }
+  }
+   */
