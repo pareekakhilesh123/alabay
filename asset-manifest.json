@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/alabay/static/css/main.3b7d1d23.css",
-    "main.js": "/alabay/static/js/main.86d6cead.js",
+    "main.css": "/alabay/static/css/main.56ed9042.css",
+    "main.js": "/alabay/static/js/main.6515bc8a.js",
     "static/media/Eracake.ttf": "/alabay/static/media/Eracake.02e659d7b30dafa37468.ttf",
     "index.html": "/alabay/index.html",
-    "main.3b7d1d23.css.map": "/alabay/static/css/main.3b7d1d23.css.map",
-    "main.86d6cead.js.map": "/alabay/static/js/main.86d6cead.js.map"
+    "main.56ed9042.css.map": "/alabay/static/css/main.56ed9042.css.map",
+    "main.6515bc8a.js.map": "/alabay/static/js/main.6515bc8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b7d1d23.css",
-    "static/js/main.86d6cead.js"
+    "static/css/main.56ed9042.css",
+    "static/js/main.6515bc8a.js"
   ]
 }
