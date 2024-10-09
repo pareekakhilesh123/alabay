@@ -1,0 +1,48 @@
+.photocardwrap{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  
+  }
+  
+  
+  .navigation {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+  }
+  
+  .nav-item:hover {
+    color: #ff8c00;
+  }
+  
+  
+  .photocardwrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .navigation {
+        margin: 0;
+      }
+      .photocardwrap{
+        gap: 10px;
+      }
+  }

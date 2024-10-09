@@ -1,0 +1,17 @@
+.silderbutton{
+    width: 77px;
+    height: 118px;
+    background-color: #353535;
+    border: 10px rgb(10, 54, 69);
+    border-radius: 30px
+}
+.rightmoveicon{
+    height: 56px ;
+    width: 67px;
+}
+
+@media (max-width: 768px) {
+    .silderbutton{
+        width: 100vw;
+    }
+}

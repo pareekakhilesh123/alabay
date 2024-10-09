@@ -1,0 +1,11 @@
+.photocardcontainer{
+    width: 430px;
+    height: 272px;
+    background-color: #A6A6A6;
+    border-radius: 64px;
+    color: black;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

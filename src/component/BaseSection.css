@@ -1,0 +1,21 @@
+.basesection{
+    position: relative;
+    width: 100%;
+    height: 792px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.backgroundCilp{
+    height: 788px;;
+
+    background: radial-gradient( #FFF280,#FFC700);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%);
+}
+
+.backgroundOverlap{
+    position: absolute;
+    top: 0px; 
+    left: 0;
+    width: 100%;
+}
