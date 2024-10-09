@@ -1,0 +1,51 @@
+.roadmap{
+    height: 1200px;
+    width: 1510px;
+}
+.main-img{
+    width: 1223px;
+    object-fit: contain;
+}
+
+.photoset{
+    width: 1504px;
+    height: 835px;
+ object-fit: cover; 
+     position: relative;
+    top: 41px;
+}
+.pera{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* .text{
+    padding: 0;
+    position: absolute;
+    top: 500px;
+    height: 35px;
+    width: 759px;
+    text-align: center;
+    left: 361px;
+    line-height: 25px;
+}*/
+@media (max-width: 768px) {
+    .roadmap{
+        height: auto;
+        width: auto ;
+    }
+    .main-img{
+        width: 373px;
+        object-fit: contain;
+        margin-bottom: 28px;
+    }
+    /* .photoset{
+        width: 98vw;
+        height: 835px;
+        object-fit: cover; 
+         position: relative;
+        top: 41px;
+    } */
+}

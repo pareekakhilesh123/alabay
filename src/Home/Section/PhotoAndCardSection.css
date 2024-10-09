@@ -1,10 +1,15 @@
+.photoAndCardSection{
+  width:  98vw;
+  height: 728px;
+}
+
+
 .photocardwrap{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
   
   }
-  
   
   .navigation {
     margin-top: 20px;
@@ -44,5 +49,9 @@
       }
       .photocardwrap{
         gap: 10px;
+      }
+      .photoAndCardSection{
+        width:  auto;
+        height:  auto;
       }
   }

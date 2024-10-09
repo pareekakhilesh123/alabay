@@ -7,6 +7,14 @@
    
   
 }
+.main-image {
+  width: 892px;
+  height: 909px;
+  /* object-fit: cover; */
+  position: relative;
+  top: 10px;
+ 
+}
 .bgcclip
 {
 height: 788px;;

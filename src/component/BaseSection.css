@@ -7,10 +7,11 @@
 }
 
 .backgroundCilp{
-    height: 788px;;
+    height: 1311px;
+    background: radial-gradient(#FFF280, #FFC700);
+    clip-path: polygon(0 25%, 183% 0, 103% 100%, 0 87%);
 
-    background: radial-gradient( #FFF280,#FFC700);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%);
+
 }
 
 .backgroundOverlap{
@@ -19,3 +20,21 @@
     left: 0;
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .basesection {
+      flex-direction: column;
+      width: 98vw;
+    }
+    .backgroundCilp
+    {
+   height: 630px; 
+  }
+  .backgroundOverlap{
+    height: 600px;
+  }
+  
+  
+  }
+  
+  
