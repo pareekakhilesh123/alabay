@@ -1,0 +1,66 @@
+.banner {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    max-width: 1246px;  
+    height: 570px;
+    z-index: 1;
+  }
+  
+  .banner-set {
+    height: 999px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .tshirt-image {
+    max-width: 60%;  
+    height: auto;
+  }
+  
+  .banner-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    margin: 0 auto;  
+    height: 872px;  
+    width: 100%;
+    max-width: 1246px;  
+    border-radius: 26px;
+    padding: 20px; 
+    box-sizing: border-box;  
+  }
+  
+  .text-heading {
+    margin-top: 50px;  
+  }
+  
+  @media screen and (max-width: 1440px) {
+    .banner-component {
+      width: 90%;  
+      height: auto;  
+      padding: 10px;  
+    }
+  
+    .tshirt-image {
+      max-width: 70%;  
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .banner-component {
+      width: 95%; 
+    }
+  
+    .tshirt-image {
+      max-width: 90%;  
+    }
+  
+    .banner {
+      top: 20px; 
+    }
+  }
+  

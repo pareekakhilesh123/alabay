@@ -1,0 +1,39 @@
+.upcoming-game {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .game-text {
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .game-image-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px; 
+  }
+  
+  .game-image {
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  .button-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .discover-button {
+    background-color: #6c50f4;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

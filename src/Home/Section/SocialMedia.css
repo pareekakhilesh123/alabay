@@ -1,0 +1,50 @@
+ 
+.social-media-container {
+    text-align: center;
+    /* margin-top: 100px; */
+  }
+   
+  .image-link-container {
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+  }
+  .imgcontainer1{
+    height: 287px;
+  }
+ 
+  .dog-image {
+        width: 560px;
+        height: 568px;
+         position: relative;
+        left: 381px;
+      
+    
+  }
+ 
+  .social-media-links {
+    
+    background-color: #007bff;
+    padding: 20px;
+    position: relative;
+    top: 324px;
+    width: 192px;
+    right: 230px;
+    border-radius: 10px;
+    text-align: left;
+     
+  }
+ 
+  .social-link {
+    display: block;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 10px 0;
+  }
+ 
+  .social-link:hover {
+    color: #ffeb3b;
+    text-decoration: underline;
+  }
+  

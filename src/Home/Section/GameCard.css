@@ -1,0 +1,15 @@
+.game-previews-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FF9900;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .game-previews-container {
+    display: flex;
+ 
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  

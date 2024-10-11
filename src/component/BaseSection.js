@@ -2,11 +2,10 @@ import React from 'react'
 import './BaseSection.css'
  
 
-function BaseSection({children}) {
+function BaseSection({children, style}) {
   return (
-    <div className='basesection'>
-    <div className='backgroundCilp'></div>
-
+    <div className='basesection' style={style}>
+     <div className='backgroundCilp' style={style}></div>
  <div className='backgroundOverlap'>
  
  
